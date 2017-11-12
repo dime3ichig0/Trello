@@ -15,93 +15,170 @@
 
 
 body{
-	background-image:url(img/maxresdefault.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+	background-image:url(img/bts-jhope-concept.jpg);
+	}
+                  /*Seccion 1*/
 
-.fa{
-	font-size: 40px;
-}
-
-
-
-/*Seccion 1*/
-
-header{
- display: inline-block;
- border-radius: 3px;
- box-shadow: 0 1px 1px rgba(0,0,0,.1);
- background-color: rgba(255,255,255,.3);
- color: rgba(255,255,255,.5);
- padding-right: 30px;
- padding-left: 8px;
- border: none;
- font-size: 13px;
- height: 60px;
- min-height: 30px;
- box-sizing: border-box;
- position: absolute;
- width:100%;
-}
-
-.buscador{
-	 display: inline-block;
-
+header {
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  background-color: rgba(255,255,255,.3);  /*Estilo de colores*/
+  color: rgba(255,255,255,.5);
+  overflow: hidden;
+  position: fixed;
+  overflow: hidden;
+  padding: 5px 8px;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  height: 30px;
 }
 
 
-ul li {
-	display: inline-block;
-	list-style: none;
-	padding: 5px;
-	border-radius: 10px;
-	color: #FFFFFF;
+ .dos-iconos{ /*barrita*/
+
+  background-color: rgba(255,255,255,.3);
+  color: rgba(255,255,255,.5);
+  border-radius: 5px;
+  width: 90px;
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  bottom: 5px;
+  top:10px;
 }
 
-a{
-	text-decoration:none;
-	color: #FFFFFF;
+.dos-iconos i { /*icono de trello*/
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+}
+
+.dos-iconos p { /*Texto*/
+  position: relative;
+  bottom: 30px;
+  left: 25px;
+}
+
+
+
+.buscador {  /*Barrita de Buscador*/
+  position: absolute;
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  background-color: rgba(255,255,255,.3);
+  color: rgba(255,255,255,.5);
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  left: 200px;
+  display: inline-block;
+}
+
+
+.fa-search{ /*Icono de Lupa*/
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 12px;
+  left: 330px;
+  border: none;
+} 
+
+.logotipo{
 	text-align: center;
-}
-
-       
-.tablero{
-	background-color: #000000;
-	width: 80px;
-	padding: 10px;
-	height: 20px;
-	margin: 10px;
-
-
-}
-
-.tablero-1-5 {
-	color: #000000;
-	font-size: 30px;
-	font-family: 'Righteous', cursive;
-	text-align: center;
-}
-
-
-     /*Iconos Final*/
-
-.tablero2{
-	float: right;
-	color: #FFFFFF;
-	background-color: #C5C1E6;
-	border-radius: 5px;
-	margin:5px;
-	margin-top: 20px;
-
-}
-
-.cajita{
-	width: 400px;
+	position: absolute;
+	right: 700px;
 	height: 100px;
-	background-color:#FFFFFF;
-	font-family: 'Exo 2', sans-serif;
-	display: inline-block;
 
 }
 
+
+ .campana{
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  left: 1270px;
+  position: absolute;
+  top:10px;
+}
+
+.campana i{
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  background-color: rgba(255,255,255,.3);
+  color: rgba(255,255,255,.5);
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  border-radius: 5px;
+    text-align: center;
+
+}
+
+
+
+
+
+ .info{
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  left: 1240px;
+  position: absolute;
+  top:10px;
+  
+}
+
+.info i{
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  background-color: rgba(255,255,255,.3);
+  color: rgba(255,255,255,.5);
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  border-radius: 5px;
+  text-align: center;
+
+}
+
+
+
+ .mas{
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  left: 1210px;
+  position: absolute;
+  top:10px;
+
+}
+
+.mas i{
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  background-color: rgba(255,255,255,.3);
+  color: rgba(255,255,255,.5);
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  border-radius: 5px;
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+.imagen-circulito img { /*Imagen Gif*/
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  left: 1320px;
+  position: fixed;
+  top:3px;
+}
