@@ -45,19 +45,22 @@ header {
   position: absolute;
   left: 50px;
   bottom: 5px;
-  top:10px;
+  top: 6px;
+  height: 30px;
 }
 
 .dos-iconos i { /*icono de trello*/
   position: absolute;
-  bottom: 8px;
+  bottom: 7px;
   left: 10px;
 }
 
 .dos-iconos p { /*Texto*/
   position: relative;
-  bottom: 30px;
+  top:2px;
   left: 25px;
+  margin: 2px;
+
 }
 
 
@@ -69,8 +72,8 @@ header {
   color: rgba(255,255,255,.5);
   border: none;
   border-radius: 5px;
-  height: 35px;
-  left: 200px;
+  height: 30px;
+  left: 150px;
   display: inline-block;
 }
 
@@ -81,7 +84,7 @@ header {
   cursor: pointer;
   position: absolute;
   top: 12px;
-  left: 330px;
+  left: 295px;
   border: none;
 } 
 
@@ -126,7 +129,7 @@ header {
   left: 1240px;
   position: absolute;
   top:10px;
-  
+
 }
 
 .info i{
